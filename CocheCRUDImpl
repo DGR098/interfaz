@@ -1,39 +1,28 @@
-package Interfaz
-
+package CocheCRUD;
 public class CocheCRUDImpl implements CocheCRUD {
+
+    
     @Override
-    
-   
-public void save() {
-        System.out.println(
-        System
-"Método save() llamado");
+    public void save() {
     }
 
-    
-    }
-
-   
-
-   
-@Override
+    @Override
     public void findAll() {
-        System.out.println(
-        System.out
-
-       
-"Método findAll() llamado");
     }
 
-    
-    }
-
-
-   
-@Override
+    @Override
     public void delete() {
-        System.out.println(
-       
-"Método delete() llamado");
+    }
+
+    String save = "Guardado";
+    String findAll = "Buscar todo";
+    String delete = "Borrado";
+
+    @Override
+    public String toString() {
+        return "save=" + save +
+        ", findAll=" + findAll +
+        ", delete=" + delete;
     }
 }
+
